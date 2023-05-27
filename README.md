@@ -1,11 +1,11 @@
-About r-icarus
-==============
+About r-icarus-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-icarus-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=icarus
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-icarus-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides user-friendly tools for calibration in survey sampling. The package is production-oriented, and its interface is inspired by the famous popular macro 'Calmar' for SAS, so that 'Calmar' users can quickly get used to 'icarus'. In addition to calibration (with linear, raking and logit methods), 'icarus' features functions for calibration on tight bounds and penalized calibration.
 
