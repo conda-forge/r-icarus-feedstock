@@ -1,4 +1,4 @@
-{% set version = "0.3.2" %}
+{% set version = "0.3.3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/icarus_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/icarus/icarus_{{ version }}.tar.gz
-  sha256: 8360ab27d240ed763fd3494edd468d372c41eea52bafb9fbb44731c47bf8645a
+  sha256: 8db972bfbe0ac1edf49dcc492c0c6023adc2292bc625dcdb88fea51f48745198
 
 build:
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
