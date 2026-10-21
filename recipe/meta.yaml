@@ -1,4 +1,4 @@
-{% set version = "0.3.3" %}
+{% set version = "0.3.4" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/icarus_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/icarus/icarus_{{ version }}.tar.gz
-  sha256: 8db972bfbe0ac1edf49dcc492c0c6023adc2292bc625dcdb88fea51f48745198
+  sha256: e2dd431bdbc4db8ef2e67a905a46829d2c237e78f8804553f1a2a4b7ca3d8f94
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -35,8 +35,8 @@ test:
 about:
   home: https://CRAN.R-project.org/package=icarus
   license: GPL-3.0-only
-  summary: Provides user-friendly tools for calibration in survey sampling. The package is production-oriented, and its interface is inspired by the famous popular macro 'Calmar' for SAS, so that 'Calmar' users can quickly get used to 'icarus'. In addition to calibration (with linear, raking and logit methods), 'icarus'
-    features functions for calibration on tight bounds and penalized calibration.
+  summary: Provides user-friendly tools for calibration in survey sampling. The package is production-oriented, and its interface is inspired by the famous popular macro 'Calmar' for SAS, so that 'Calmar' users can quickly get used to 'icarus'. In addition to calibration (with linear, raking and logit methods), 
+    'icarus' features functions for calibration on tight bounds and penalized calibration.
   license_family: GPL3
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
